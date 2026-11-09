@@ -1,0 +1,126 @@
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e0e5ec;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #e0e5ec;
+  box-shadow: 0 3px 8px #b8bec7;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.stories {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+.story {
+  min-width: 65px;
+  height: 85px;
+  border-radius: 12px;
+  background: #e0e5ec;
+  box-shadow: 3px 3px 7px #b8bec7,
+              -3px -3px 7px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-post, .post {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px #b8bec7,
+              -4px -4px 10px white;
+}
+
+.create-post {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile {
+  background: #6c5ce7;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.post-image {
+  height: 180px;
+  background: #cbd2dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #e0e5ec;
+  box-shadow: 0 -3px 10px #b8bec7;
+}
+
+nav button {
+  font-size: 12px;
+}
+
+#feed {
+  padding-bottom: 70px;
+}
+
+.create-post button {
+  background: #6c5ce7;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.photo-btn {
+  background: #6c5ce7;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+</style>
+

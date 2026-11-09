@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantaum</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+
+<body>
+
+<header>
+  <h2>Quantaum</h2>
+  <div>
+    <button>🔍</button>
+    <button>🔔</button>
+    <button>☰</button>
+  </div>
+</header>
+
+<div class="stories">
+  <div class="story">＋<br>Story</div>
+  <div class="story">👤<br>Alex</div>
+  <div class="story">👤<br>Jamie</div>
+  <div class="story">👤<br>Taylor</div>
+</div>
+
+<form class="create-post" id="postForm">
+
+  <div class="profile">Q</div>
+
+  <input id="postInput" type="text"
+  placeholder="What's on your mind?">
+
+  <label for="photoInput" class="photo-btn">
+    📷 Photo
+  </label>
+
+  <input type="file" id="photoInput"
+  accept="image/*" hidden>
+
+  <button type="submit">Post</button>
+
+</form>
+
+<div class="post">
+  <h4>👤 Alex Morgan</h4>
+  <p>Welcome to Quantaum! 🚀</p>
+  <div class="post-image">Your post image goes here</div>
+  <div class="actions">
+    <button>❤️ Like</button>
+    <button>💬 Comment</button>
+    <button>↗ Share</button>
+  </div>
+</div>
+
+<div id="feed" aria-live="polite"></div>
+
+<nav>
+  <button>🏠<br>Home</button>
+  <button>👥<br>Friends</button>
+  <button>➕<br>Create</button>
+  <button>💬<br>Messages</button>
+  <button>👤<br>Profile</button>
+</nav>
+
+<script src="script.js"></script>
+
+</body>
+</html>
